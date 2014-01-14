@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Is it Wednesday?</title>
+    <link rel=stylesheet href=css/isit.css>
+    <script type="text/javascript">
+      var today = new Date(); var wkday = today.getDay();
+      function wednesday() {
+        if (wkday == 3) {
+          document.write('<h1 class="yes">YES</h1>');
+        }
+        else {
+          document.write('<h1 class="no">NO</h1>');
+        }
+      }
+      function checkday() {
+        var newtoday = new Date(); var newwkday = newtoday.getDay();
+        if (wkday == 3 && newwkday == 4) { location.reload(); }
+        if (wkday == 4 && newwkday == 5) { location.reload(); }
+      }
+      setInterval('checkday()', 1000);
+    </script>
+  </head>
+  <body>
+    <script type="text/javascript">
+      wednesday();
+    </script>
+    <noscript>
+      <h1 class="maybe">MAYBE</h1>
+    </noscript>
+  </body>
+</html>

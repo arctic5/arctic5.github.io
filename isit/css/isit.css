@@ -1,0 +1,19 @@
+body {
+  color: #000;
+  background-color: #fff;
+  font-family: 'Trebuchet MS', Verdana, Helvetica, Arial, sans-serif;
+}
+h1 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 12em;
+}
+.yes {
+  color: #080;
+}
+.no {
+  color: #f00;
+}
+.maybe {
+  color: #000;
+}
