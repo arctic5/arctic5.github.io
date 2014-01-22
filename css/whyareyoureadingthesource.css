@@ -1,23 +1,23 @@
 .structural {
-	position: absolute;
-	left: -9999px;
+    position: absolute;
+    left: -9999px;
 }
 
 * {
-  font-family: Arial, sans-serif;
-  font-size: 18px;
-  line-height: 19px;
-  color: #4c4c51;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 19px;
+    color: #4c4c51;
 }
 
 .wrap {
-	width: 900px;
-	margin: 0 auto;
+    width: 900px;
+    margin: 0 auto;
 }
 
 .header {
-	font: 12pt sans-serif;
-	padding: 4px;
+    font: 12pt sans-serif;
+    padding: 4px;
     overflow: hidden;
     background: #bdcbe1;
 }
