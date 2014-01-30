@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+    <body>
+
+        <p id="cookies">CLICK 2 ADD CUKIES.</p>
+
+        <button onclick="addCookie()">COOKIE</button>
+
+        <script>
+            var cookie;
+            cookie = 0;
+            function addCookie()
+            {
+                cookie += 1;
+                document.getElementById("cookies").innerHTML=cookie;
+            }
+        </script>
+
+    </body>
+</html>
