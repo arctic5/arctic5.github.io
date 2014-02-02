@@ -11,12 +11,25 @@
         <button onclick="addCookie()">COOKIE</button>
 
         <script>
-            var cookie;
-            cookie = 0;
+            //html5 local storage!
             function addCookie()
             {
-                cookie += 1;
-                document.getElementById("cookies").innerHTML=cookie;
+                if(typeof(Storage)!=="undefined")
+                {
+                    if(localStorage.cookies)
+                    {
+                        localStorage.cookies=Number(localStorage.cookies)+1;
+                    }
+                    else
+                    {
+                        localStorage.clickcount=1;
+                    }
+                    document.getElementById("cookies").innerHTML=localStorage.cookies;
+                }
+                else
+                {
+                    document.getElementById("result").innerHTML="adadadasdasdfdsfsdf";
+                }
             }
         </script>
         <!--GOOGLE ANALYTICS-->
@@ -33,4 +46,3 @@
         </script>
     </body>
 </html>
-
