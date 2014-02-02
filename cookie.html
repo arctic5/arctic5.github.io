@@ -4,11 +4,13 @@
         <meta charset=utf-8>
         <title>THE COOKIE CLICKER</title>
         <meta name="description" content="so i made a stupid cookie clicker clone thing">
+        <link rel="stylesheet" href="css/cookie.css">
     </head>
     <body>
         <p id="cookies">CLICK 2 ADD CUKIES.</p>
-
-        <button onclick="addCookie()">COOKIE</button>
+        <div>
+            <button onclick="addCookie()">COOKIE</button>
+        </div>
 
         <script>
             document.getElementById("cookies").innerHTML=localStorage.cookies;
