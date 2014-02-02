@@ -16,6 +16,10 @@
             {
                 if(typeof(Storage)!=="undefined")
                 {
+                    if(!localStorage.cookies)
+                    {
+                        localStorage.cookies = 0;
+                    }
                     if(localStorage.cookies)
                     {
                         localStorage.cookies=Number(localStorage.cookies)+1;
