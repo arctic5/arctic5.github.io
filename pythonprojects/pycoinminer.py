@@ -17,10 +17,7 @@ while(loop == 1):
     print ("Pycoin Miner")
     print ("Number of pycoins:")
     print (pycoin)
-    if (pycoin >= 0):
-        raw_input("Press Enter to mine...")
-    else:
-        pycoin = 0
+    raw_input("Press Enter to mine...")
 
     os.system('cls')
     print "@(________)"
@@ -64,6 +61,7 @@ while(loop == 1):
     while (n <= crypt):
         print(id_generator())
         n+=1
+        time.sleep(.1)
         os.system('cls')
 
     mined = random.randrange(1,3)
