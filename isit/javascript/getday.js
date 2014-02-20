@@ -73,4 +73,6 @@ function portal() {
         window.location = "thursday.html";
     if (wkday == 5)
         window.location = "friday.html";
+    else
+        document.write('<p>Sorry, weekends are not currently supported</p>');
 }
