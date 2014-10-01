@@ -1,0 +1,66 @@
+{
+    'Okt': {
+        '*!*@TOROON4318W-LP140-01-1279552801.dsl.bell.ca',
+        '*!*@70.51.165.43',
+    },
+    'Prime': {
+        '*!*@c-76-116-204-235.hsd1.nj.comcast.net',
+    },
+    't_': {
+        '*!*@c-98-249-4-8.hsd1.va.comcast.net',
+    },
+    'BassMakesPaste': {
+        '*!*@ip68-96-255-50.lv.lv.cox.net',
+    },
+    'Hanako': {
+        '*!*@bas1-london16-2925403881.dsl.bell.ca',
+    },
+    'Meow': {
+        '*!*@2.219.31.118',
+        '*!*@0547f29d.skybroadband.com',
+    },
+    'Aralia': {
+        '*!*@50-88-145-72.res.bhn.net',
+    },
+    'Hip': {
+        '*!*@CPE00222dca93d0-CM00222dca93cd.cpe.net.cable.rogers.com',
+        '*!*@209.141.128.145',
+    },
+    'Spai': {
+        '*!*@101.114.11.60',
+        '*!*@dyn-118-139-72-239.its.monash.edu.au',
+    },
+    'Derpdock': {
+        '*!*@cpc68667-wiga11-2-0-cust129.18-3.cable.virginm.net',
+    },
+    'Spazz': {
+        '*!*@199.119.233.144',
+    },
+    'Poop': {
+        '*!*@94.4.230.216',
+    },
+    'Sparky': {
+        '*!*@APoitiers-652-1-325-176.w86-217.abo.wanadoo.fr',
+    },
+    'Steve': {
+        '*!*@c-76-118-93-137.hsd1.ma.comcast.net',
+    },
+    'Cabalier': {
+        '*!*@dyn-160-39-211-190.dyn.columbia.edu',
+    },
+    'Imp': {
+        '*!*@c-71-230-243-146.hsd1.pa.comcast.net',
+    },
+    'orph': {
+        '*!*@80-219-41-64.dclient.hispeed.ch',
+    },
+    'heenok': {
+        '*!*@modemcable073.125-161-184.mc.videotron.ca',
+    },
+    'tus': {
+        '*!*@pool-108-48-127-72.washdc.fios.verizon.net',
+    },
+    'tus': {
+        '*!*@75-140-75-64.dhcp.mtpk.ca.charter.com',
+    },
+}
