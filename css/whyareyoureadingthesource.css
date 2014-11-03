@@ -17,9 +17,11 @@
 
 .header {
 	font: 12pt sans-serif;
-	padding: 4px;
+	padding: 10px;
     overflow: hidden;
     background: #bdcbe1;
+    width: 100%;
+    text-align: center;
 }
 #tabs {
     background: #ecedf6;
@@ -28,14 +30,21 @@
 .main {
     background: #bdcbe1;
     background-color: #ecedf6;
-    padding: 20px 1% 200px;
+    overflow: hidden;
+    padding: 0px 1%;
+    position: fixed;
+    height: 100%;
+    width: 100%;
 }
 .footer {
     background: #bdcbe1;
     padding: 5px 1% 5px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
 }
 aside {
     float: right;
-    padding: 0px 5% 10px;
-    background-color: #bdcbe1;
+    padding: 0px 5% 100% 11px;
+    background-color: #D3DEF0;
 }
