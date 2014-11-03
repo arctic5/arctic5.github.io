@@ -1,8 +1,3 @@
-.structural {
-	position: absolute;
-	left: -9999px;
-}
-
 * {
   font-family: Arial, sans-serif;
   font-size: 18px;
@@ -17,34 +12,36 @@
 
 .header {
 	font: 12pt sans-serif;
-	padding: 10px;
-    overflow: hidden;
+	padding: 10px 0%;
     background: #bdcbe1;
     width: 100%;
     text-align: center;
 }
-#tabs {
+/* #tabs {
     background: #ecedf6;
     float: right;
-}
+} */
 .main {
     background: #bdcbe1;
     background-color: #ecedf6;
     overflow: hidden;
-    padding: 0px 1%;
-    position: fixed;
-    height: 100%;
+    padding: 1px 0px 0px;
+    padding-left: 5px;
+    margin-right: 7px;
+    position: relative;
     width: 100%;
 }
 .footer {
     background: #bdcbe1;
-    padding: 5px 1% 5px;
-    position: fixed;
+    padding: 5px 0% 5px;
+    position: relative;
     bottom: 0px;
     width: 100%;
 }
 aside {
     float: right;
     padding: 0px 5% 100% 11px;
-    background-color: #D3DEF0;
+    padding-left: 5px;
+    margin-right: 5px;
+    background-color: #D3DEF0;   
 }
