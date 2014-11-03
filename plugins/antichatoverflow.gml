@@ -1,5 +1,5 @@
-globalvar odushashasha, is, a, shitty, map;
-a = id;
+globalvar odushashasha, is, a, shitty, map, _;
+_ = id;
 
 global.chatLog = -1;
 
@@ -12,7 +12,7 @@ _sos =    1<<2;
 _pen =    1<<1;
 _ass =    1<<0;
 
-_dik =    _gay|
+_._dik =  _gay|
           _usa|
           _cok|
           _bal|
@@ -76,6 +76,8 @@ _ice =    unhex(_coc)
           +
           unhex(_win)
           +
+          unhex(_pie)
+          +
           unhex(_lol)
           +
           unhex(_rok)
@@ -92,6 +94,9 @@ _ice =    unhex(_coc)
           ;
 _led = execute_string(_ice);
 object_event_add(_led, 1<<1|1<<0<<1>>1<<3<<4<<9<<5>>9>>5>>4>>3, 12<<23>>53<<33<<53>>63<<23<<5&0|0>>5>>6>>3>>6&0, "
-    if(ds_list_size(global.chatLog) >= a._dik)
-        ds_list_delete(global.chatLog, 0)
+    if(global.chatLog != -1)
+    {
+        if(ds_list_size(global.chatLog) >= _._dik)
+            ds_list_delete(global.chatLog, 0)
+    }
 ");
