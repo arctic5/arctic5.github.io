@@ -1,0 +1,1 @@
+object_event_add(Character,0,0,'sprite_special = 1')
