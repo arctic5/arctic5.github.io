@@ -1,0 +1,10 @@
+sound_delete(DeathSnd3);
+sound_delete(DeathSnd4);
+sound_delete(DeathSnd5);
+sound_delete(DeathSnd6);
+globalvar DeathSnd3, DeathSnd4, DeathSnd5, DeathSnd6;
+DeathSnd3 = DeathSnd1;
+DeathSnd4 = DeathSnd1;
+DeathSnd5 = DeathSnd2;
+DeathSnd6 = DeathSnd2;
+instance_destroy();
