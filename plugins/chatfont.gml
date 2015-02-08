@@ -48,4 +48,5 @@ object_event_add(global.pluginOptions,ev_destroy,0,'
     ini_write_real("Plugins","chat_font_italic",global.newitalic);
     ini_close();
 ');
-object_event_add(PlayerControl,ev_create,0,'font_replace(global.consoleFont,global.newFont,global.newSize,global.newbold,global.newitalic,32,127);');
+if !variable_global_exists('chatWindow') global.chatWindow = object_add();
+object_event_add(global.chatWindow,ev_create,0,'font_replace(global.consoleFont,global.newFont,global.newSize,global.newbold,global.newitalic,32,127);');
