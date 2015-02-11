@@ -1,8 +1,7 @@
 * {
-  font-family: Arial, sans-serif;
-  font-size: 18px;
-  line-height: 19px;
-  color: #4c4c51;
+    font-family: Verdana, serif;
+    font-size: 18px;
+    line-height: 19px;
 }
 
 body {
@@ -28,7 +27,8 @@ body {
     background: #bdcbe1;
     background-color: #ecedf6;
     overflow: hidden;
-    padding-left: 5px;
+    /*top left bottom */
+    padding: 5% 3% 5%;
     position: relative;
 }
 .footer {
@@ -37,10 +37,11 @@ body {
     position: relative;
     bottom: 0px;
     width: 100%;
+    text-align: center;
 }
 aside {
     float: right;
     padding: 0px 5% 100% 11px;
     padding-left: 5px;
-    background-color: #D3DEF0;   
+    background-color: #D3DEF0;
 }
