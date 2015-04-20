@@ -12,7 +12,7 @@ object_event_add(PlayerControl, ev_step, ev_step_normal, "
             with (global.chatWindow)
             {
                 _message = 'xd';
-                _team = global.myself.team;
+                _team = 0;
                 event_user(3);
             }
         }
