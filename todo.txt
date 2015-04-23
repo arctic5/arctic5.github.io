@@ -6,3 +6,4 @@
 -pyro flare bug
 -maybe not gay server plugin checking
 -option for corsp trakign
+-option for ajfs lame lazieness
