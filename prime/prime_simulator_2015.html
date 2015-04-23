@@ -3,7 +3,7 @@
     <head>
         <meta charset=utf-8>
         <title>PRIME SIMULATOR 2015</title>
-        <meta name="description" content="gay garrison 2 osawahiki arctic derpduck duck spin">
+        <meta name="description" content="gay garrison 2 osawahiki arctic prime simulator">
         <!-- code borrowed from http://jsfiddle.net/gionaf/Ugc5g/ -->
         <style>
             .prime 
@@ -17,7 +17,19 @@
             }
             @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
             @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
-            @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+            @keyframes spin
+            {
+                0%
+                {
+                    -webkit-transform:rotate(0deg) scale(0.01);
+                    transform:rotate(0deg) scale(0.01);
+                }
+                100% 
+                {
+                    -webkit-transform: rotate(360deg) scale(2);
+                    transform:rotate(360deg) scale(2);
+                }
+            }
         </style>
     </head>
     <body>
