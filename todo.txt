@@ -1,6 +1,3 @@
--un nerf medic
--60fps input things
 -paralax maps
--pyro flare bug
 -maybe not gay server plugin checking
-
+-replays
