@@ -5,7 +5,7 @@ window.onload = function() {
     navigator.getUserMedia({audio: true}, function(stream) {
         var microphone = context.createMediaStreamSource(stream);
         var filter = context.createAudioGain();
-        microphone.connect();
+        microphone.connect(filter);
         filter.connect(context.destination);
     }, function() {alert("ur browser suk");});
 }
