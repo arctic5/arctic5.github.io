@@ -1,5 +1,6 @@
 html, body {
     height: 100%;
+    background-color: #ecedf6;
 }
 body {
     margin:0;
@@ -27,9 +28,9 @@ h1, h2, p {
     text-align: center;
 }
 .main {
-    
+
     background-color: #ecedf6;
-    
+
     /*top left bottom */
     padding: 5% 3% 25px;
     position: relative;
@@ -46,7 +47,7 @@ footer {
     left: 0;
     right: 0;
     height: 25px;
-    position: absolute;
+    /*position: absolute;*/
     margin-top: 20px;
 
 }
