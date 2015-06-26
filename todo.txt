@@ -1,3 +1,2 @@
 -paralax maps
 -maybe not gay server plugin checking
--replays
